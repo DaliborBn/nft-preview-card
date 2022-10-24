@@ -30,7 +30,7 @@ body {
   align-items: center;
 }
 .container {
-  max-width: 40rem;
+  max-width: 37.5rem;
   height: auto;
   background-color: hsl(216, 67%, 8%);
   padding: 3rem 1.5rem;
@@ -65,7 +65,7 @@ body {
 #image-box {
   position: relative;
   width: 100%;
-  max-width: 40rem;
+  max-width: 37.5rem;
   max-height: 32.2rem;
   border-radius: 1.5rem;
   overflow: hidden;
@@ -74,6 +74,8 @@ body {
 #first {
   width: 100%;
   height: auto;
+  display: block;
+  margin: auto;
 
 }
 #overlay {
@@ -97,7 +99,6 @@ body {
   -ms-transform: translate(-50%, -50%);
   text-align: center;
   display: none;
-
 }
 /*HOVER*/
 #image-box:hover #overlay {
